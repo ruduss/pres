@@ -1,0 +1,15 @@
+/home/pi/Desktop/work/home/stuff/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/pi/Desktop/work/home/stuff/bin/stuff.dll.mdb
+/home/pi/Desktop/work/home/stuff/bin/stuff.dll
+/home/pi/Desktop/work/home/stuff/obj/Debug/stuff.dll
+/home/pi/Desktop/work/home/stuff/obj/Debug/stuff.dll.mdb
+/home/pi/Desktop/work/home/stuff/bin/Microsoft.Web.Infrastructure.dll
+/home/pi/Desktop/work/home/stuff/bin/System.Web.Razor.dll
+/home/pi/Desktop/work/home/stuff/bin/System.Web.Helpers.dll
+/home/pi/Desktop/work/home/stuff/bin/System.Web.WebPages.dll
+/home/pi/Desktop/work/home/stuff/bin/System.Web.WebPages.Deployment.dll
+/home/pi/Desktop/work/home/stuff/bin/System.Web.WebPages.Razor.dll
+/home/pi/Desktop/work/home/stuff/bin/System.Web.Mvc.dll
+/home/pi/Desktop/work/home/stuff/bin/MongoDB.Bson.dll
+/home/pi/Desktop/work/home/stuff/bin/MongoDB.Driver.Core.dll
+/home/pi/Desktop/work/home/stuff/bin/MongoDB.Driver.dll

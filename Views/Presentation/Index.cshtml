@@ -1,0 +1,29 @@
+﻿@model List<Pres.Web.Models.Presentation>
+@{
+    ViewBag.Title = "Presenation";
+}
+
+<h3>Presentation</h3>
+<div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th></th>
+                </tr>
+            </thead>
+            @foreach (var item in Model)
+            {
+                <tbody>
+                    <tr>
+                        <td rowspan="2">@Html.DisplayFor(x => item.Title)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Author)</td>
+                        <td><a href="~/Presentation/View/@item.Id"> @item.Title </a></td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
