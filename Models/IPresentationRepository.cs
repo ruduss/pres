@@ -8,11 +8,11 @@ namespace Pres.Web.Models
 	{
 		Task<List<Presentation>> All();
 
-		Task<Presentation> Get(ObjectId id);
-
 		void Add(Presentation presentations);
 
 		void Update(Presentation presentations);
+
+		Task<Page> GetPage(ObjectId id, int? pageNumber);
 
 	}
 }

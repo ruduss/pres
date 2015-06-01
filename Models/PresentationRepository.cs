@@ -30,12 +30,11 @@ namespace Pres.Web.Models
 			return presentationList;
 		}
 
-		public async Task<Presentation> Get(ObjectId id)
+		public async Task<Page> GetPage(ObjectId id, int? pageNumber)
 		{
-			var filter = Builders<Presentation>.Filter.Eq ("_id", id);
-			var presentation = await _collection.Find (filter).FirstAsync ();
-
-			return presentation;
+			var presentation = await _collection.Find (x=> x.Id == id).FirstAsync ();
+			var result = presentation.Pages.FindLast (x => x.Order == pageNumber);
+			return result;
 		}
 
 		public async void Update(Presentation presentations)

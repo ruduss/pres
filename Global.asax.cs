@@ -20,6 +20,12 @@ namespace Pres.Web
 				new { controller = "Presentation", action = "Index", id= UrlParameter.Optional }
 			);
 
+			routes.MapRoute (
+				"PresentationPage",
+				"Presentation/View/{id}/{pageNumber}",
+				new { controller = "Presentation", action = "View", id= UrlParameter.Optional, pageNumber= UrlParameter.Optional}
+			);
+
 		}
 
 		public static void RegisterGlobalFilters (GlobalFilterCollection filters)

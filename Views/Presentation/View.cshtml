@@ -1,0 +1,23 @@
+﻿@model Pres.Web.Models.Page
+
+@{
+	ViewBag.Title = Model.PageTitle ;
+
+}
+
+<div>
+@Model.PageTitle
+<br><br>
+@Html.Raw(Model.Body)
+
+
+</div>
+
+<div>
+<a href="~/Presentation/View/@ViewBag.Id/@(Model.Order - 1)"> Page @(Model.Order - 1) </a>
+</div>
+
+<div>
+<a href="~/Presentation/View/@ViewBag.Id/@(Model.Order + 1)"> Page @(Model.Order + 1) </a>
+</div>
+

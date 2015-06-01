@@ -88,6 +88,7 @@
     <Compile Include="Models\IPresentationRepository.cs" />
     <Compile Include="Models\Presentation.cs" />
     <Compile Include="Models\PresentationRepository.cs" />
+    <Compile Include="Models\Page.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
@@ -99,6 +100,7 @@
     <Content Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Presentation\Index.cshtml" />
+    <Content Include="Views\Presentation\View.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
