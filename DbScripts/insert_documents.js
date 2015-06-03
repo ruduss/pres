@@ -4,7 +4,7 @@ db.getCollectionNames();
 db.dropDatabase();
 db.presentation.insert({
    presentation_title: "Pragmatic Programming",
-   author: [ "Nicole Ruduss" ],
+   author: "Nicole Ruduss",
    pages: [{
               page_title: "Pragmatic Programming",
               body: "",
