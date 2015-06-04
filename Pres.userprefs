@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="Pres.Web.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="epiphany-browser" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Presentation/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Content/c64-styles.css">
     <Files>
-      <File FileName="Views/Presentation/Index.cshtml" Line="17" Column="35" />
-      <File FileName="Global.asax.cs" Line="24" Column="3" />
-      <File FileName="Models/PresentationRepository.cs" Line="25" Column="4" />
-      <File FileName="Models/Presentation.cs" Line="20" Column="2" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="21" Column="4" />
+      <File FileName="Views/Presentation/View.cshtml" Line="20" Column="9" />
+      <File FileName="Content/c64-intro.css" Line="6" Column="25" />
+      <File FileName="Content/c64-styles.css" Line="24" Column="1" />
+      <File FileName="Content/font-styles.css" Line="15" Column="1" />
+      <File FileName="Content/bootstrap.css" Line="4991" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

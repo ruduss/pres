@@ -2,9 +2,19 @@
 <html>
 <head>
     <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet"/>
+    <link href="~/Content/c64-styles.css" rel="stylesheet" />
+    <link href="~/Content/c64-intro.css" rel="stylesheet" />
+    <link href="~/Content/Styles.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
 </head>
 <body>
-	@RenderBody()
+	<div>
+		<p class="c64_top">**** COMMODORE 64 BASIC V2 ****</p>
+	    <p class="c64_top">64 K RAM SYSTEM&nbsp;&nbsp;38911 BASIC BYTES FREE</p>
+	    @RenderBody()
+	</div>
 </body>
 </html>
 

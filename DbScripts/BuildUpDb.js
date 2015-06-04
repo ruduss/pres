@@ -1,3 +1,6 @@
-load("../../../home/pi/Desktop/work/prag_prog_presentation/DbScripts/DbStatus.js")
+/opt/mongo/bin
+load("../../../home/pi/Desktop/work/prag_prog_presentation/DbScripts/insert_documents.js")
 
-db.dropDatabase()
+db.presentation.remove({})
+
+

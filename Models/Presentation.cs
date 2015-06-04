@@ -4,7 +4,6 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace Pres.Web.Models
 {
-	
 	public class Presentation : IPresentation 
 	{
 		[BsonId]
@@ -16,6 +15,5 @@ namespace Pres.Web.Models
 		[BsonElement("pages")]
 		public List<Page> Pages { get; set; }
 	}
-
 }
 

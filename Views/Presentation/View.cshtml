@@ -5,19 +5,28 @@
 
 }
 
-<div>
-@Model.PageTitle
-<br><br>
-@Html.Raw(Model.Body)
-
-
+<div style="padding-left: 100px;">
+	<br><br>
+	<br>
+	<h4 class="typing">@Model.PageTitle</h4>
+	<br><br>
+	<div>
+		@Html.Raw(Model.Body)
+	</div>
+	<br><br>
 </div>
 
-<div>
-<a href="~/Presentation/View/@ViewBag.Id/@(Model.Order - 1)"> Page @(Model.Order - 1) </a>
+<div id="footer">
+	<div style="font-family: C64 Pro;">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		@if (Model.Order < 15)
+		{
+			<a href="~/Presentation/View/@ViewBag.Id/@(Model.Order + 1)"> Next </a>
+		}
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		@if (Model.Order > 1){
+			<a href="~/Presentation/View/@ViewBag.Id/@(Model.Order - 1)"> Prev </a>
+		}
+	</div>
 </div>
-
-<div>
-<a href="~/Presentation/View/@ViewBag.Id/@(Model.Order + 1)"> Page @(Model.Order + 1) </a>
-</div>
-

@@ -101,6 +101,40 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Presentation\Index.cshtml" />
     <Content Include="Views\Presentation\View.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Icon.png" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\jquery-2.1.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Content\c64-intro.css" />
+    <Content Include="Content\c64-styles.css" />
+    <Content Include="Content\font-styles.css" />
+    <Content Include="Scripts\c64menu.min.js" />
+    <Content Include="fonts\C64_Pro_Mono-STYLE.eot" />
+    <Content Include="fonts\C64_Pro_Mono-STYLE.svg" />
+    <Content Include="fonts\C64_Pro_Mono-STYLE.ttf" />
+    <Content Include="fonts\C64_Pro_Mono-STYLE.woff" />
+    <Content Include="fonts\C64_Pro-STYLE.eot" />
+    <Content Include="fonts\C64_Pro-STYLE.svg" />
+    <Content Include="fonts\C64_Pro-STYLE.ttf" />
+    <Content Include="fonts\C64_Pro-STYLE.woff" />
+    <Content Include="fonts\test-eot.html" />
+    <Content Include="fonts\test-svg.html" />
+    <Content Include="fonts\test-ttf.html" />
+    <Content Include="fonts\test-woff.html" />
+    <Content Include="fonts\test-woff2.html" />
+    <Content Include="Content\Styles.css" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -110,4 +144,12 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <None Include="Content\bootstrap-theme.css.map" />
+    <None Include="Content\bootstrap.css.map" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Scripts\jquery-2.1.4.min.map" />
+    <None Include="fonts\C64_Pro_Mono-STYLE.woff2" />
+    <None Include="fonts\C64_Pro-STYLE.woff2" />
+  </ItemGroup>
 </Project>
